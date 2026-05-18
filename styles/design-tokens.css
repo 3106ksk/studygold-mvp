@@ -1,0 +1,41 @@
+:root {
+  color-scheme: dark;
+
+  --color-bg: #080909;
+  --color-bg-grid: #17140a;
+  --color-surface: #181715;
+  --color-surface-raised: #24211d;
+  --color-surface-soft: #302d27;
+
+  --color-text: #f4f2ed;
+  --color-text-muted: #cfc6b6;
+  --color-text-dim: #8e887c;
+
+  --color-gold: #ffc400;
+  --color-gold-bright: #ffd96a;
+  --color-gold-deep: #b88400;
+  --color-gold-soft: #3a2f08;
+
+  --color-teal: #18d7c7;
+  --color-purple: #7c4dff;
+  --color-cream: #ffe0a3;
+  --color-red: #e7193f;
+  --color-success: #54d37e;
+  --color-danger: #ff5c5c;
+
+  --gradient-bg:
+    radial-gradient(circle at 72% 0%, rgba(255, 196, 0, 0.18), transparent 32%),
+    radial-gradient(circle at 8% 86%, rgba(24, 215, 199, 0.12), transparent 28%),
+    #080909;
+  --gradient-gold: linear-gradient(135deg, #ffe08a 0%, #ffc400 42%, #b88400 100%);
+
+  --shadow-soft: 0 18px 60px rgba(0, 0, 0, 0.35);
+  --shadow-gold: 0 0 28px rgba(255, 196, 0, 0.28);
+
+  --font-sans: "Inter", "Noto Sans JP", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+}
